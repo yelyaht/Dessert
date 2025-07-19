@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Hayley Tymony">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>A Poor Girl's Cookbook</title>
+
+    <style>
+      body {
+        background-image: url("image/newmainbackground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: black;
+        font-family: Arial, sans-serif;
+      }
+
+      p, li, a {
+        color: black;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      .trifle {
+        width: 250px;
+        height: auto;
+      }
+
+      figure {
+        margin: 20px 0;
+      }
+
+      h1, h2, h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      ol, ul {
+        margin-left: 20px;
+      }
+      .rate {
+    color: darkred;
+    font-weight: bold;
+      }
+      .rating-section fieldset {
+        border: 2px solid darkred;
+      }
+      .header-banner {
+        background-image: url("image/cherrybanner.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        text-align: center;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header-banner">
+  <h1>A Poor Girl's Cookbook</h1>
+    </div>
+
+    <div>
+      <h2>Trifle with Nutella and Ferrero Rocher</h2>
+      <p>
+        This recipe is adapted from "Anna in the Kitchen" written by annainthekitchen.
+        And found on <a href="https://annainthekitchen.com/nutella-ferrero-rocher-trifles/">https://annainthekitchen.com/nutella-ferrero-rocher-trifles/</a>
+      </p>
+      <figure>
+        <img src="image/trifle.jpg" alt="dessert" class="trifle">
+        <figcaption>Photo by: annainthekitchen</figcaption>
+      </figure>
+     </div>
+
+     <p class="intro">
+       An airy Nutella mousse layered with rich brownies and roasted hazelnuts.The word ‘trifle’ is derived from the old French word ‘trufle’
+       which means whimsical because it was usually thrown together at the last minute. Originating in England and known for it difinitive layers.
+     </p>
+
+     <!-- Flexbox start -->
+     <div class="ingredients-and-rating">
+ <div class="ingredients-section">
+   <h3>Ingredients List</h3>
+   <ul>
+     <li>1 cup heavy cream</li>
+     <li>1/2 cup nutella, plus an additional ½ cup</li>
+     <li>4 cups crumbled brownies (homemade, store bought, or from a box mix)</li>
+     <li>1 cup whipped cream</li>
+     <li>½ cup chopped roasted hazelnuts</li>
+   </ul>
+ </div>
+
+ <div class="right-column">
+  <div class="rating-section">
+    <h3 class="rate">Rate This Recipe</h3>
+    <fieldset>
+      <legend>How difficult is this recipe?</legend>
+      <input type="radio" id="easy" name="easy"> Easy
+      <input type="radio" id="med" name="easy"> Intermediate
+      <input type="radio" id="hard" name="easy"> Hard
+    </fieldset>
+    <p>&nbsp;</p>
+  </div>
+
+  <div class="conversion-section">
+    <h3>Conversion</h3>
+    <input type="text" id="tblspn" name="tblspn"> =
+    <input type="text" id="cups" name="cups">
+  </div>
+</div>
+        <!-- <h3>Equipment List</h3>
+      <ul>
+        <li>8x8 dish</li>
+        <li>Hand mixer</li>
+      </ul> -->
+    <div class="directions-and-about">
+      <div class="directions-box">
+        <h3>Directions</h3>
+        <ol>
+          <li>Add the heavy cream to the bowl of a stand mixer fitted with the whisk attachment. Beat on medium-high speed until stiff peaks form.</li>
+          <li>Add the nutella and whisk just until combined. Set aside.</li>
+          <li>Place the nutella in a small, microwave safe bowl. Microwave for 30 seconds, or until the nutella is warm and pourable.</li>
+          <li>Place ½ cup of crumbled brownie in the bottom of each glass.</li>
+          <li>Next, layer over ¼ cup of nutella whipped cream, followed by a drizzle of melted nutella, and 1 tablespoon of chopped hazelnuts.</li>
+          <li>Repeat each of the layers again.</li>
+          <li>Top with ¼ cup whipped cream.</li>
+          <li>Serve immediately.</li>
+        </ol>
+      </div>
+
+    <div class="about-box">
+      <h3>Hi! I'm Hayley. I'm a Potterhead and I love to bake.</h3>
+      <img src="image/hayley.jpg" alt="hayley">
+    </div>
+  </div>
+
+      <hr />
+      <p>This page was created as an academic activity only.</p>
+  </body>
+</html>
+
+<!-- Header could be a cherry blossom gif with words over it saying "Unlock your baking creativity" -->
